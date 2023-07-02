@@ -1,0 +1,15 @@
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\bin\Debug\net6.0\Infrastruture.deps.json
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\bin\Debug\net6.0\Infrastruture.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\bin\Debug\net6.0\Infrastruture.pdb
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\bin\Debug\net6.0\ApplicationCore.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\bin\Debug\net6.0\ApplicationCore.pdb
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\obj\Debug\net6.0\Infrastruture.csproj.AssemblyReference.cache
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\obj\Debug\net6.0\Infrastruture.GeneratedMSBuildEditorConfig.editorconfig
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\obj\Debug\net6.0\Infrastruture.AssemblyInfoInputs.cache
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\obj\Debug\net6.0\Infrastruture.AssemblyInfo.cs
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\obj\Debug\net6.0\Infrastruture.csproj.CoreCompileInputs.cache
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\obj\Debug\net6.0\Infrastruture.csproj.CopyComplete
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\obj\Debug\net6.0\Infrastruture.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\obj\Debug\net6.0\refint\Infrastruture.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\obj\Debug\net6.0\Infrastruture.pdb
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\Infrastruture\obj\Debug\net6.0\ref\Infrastruture.dll

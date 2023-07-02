@@ -1,0 +1,15 @@
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\bin\Debug\net6.0\ApplicationDomain.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\bin\Debug\net6.0\ApplicationDomain.pdb
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CopyComplete
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll

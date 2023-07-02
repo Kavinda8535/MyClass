@@ -1,0 +1,12 @@
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationDomain\bin\Debug\net6.0\ApplicationDomain.deps.json
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationDomain\bin\Debug\net6.0\ApplicationDomain.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationDomain\bin\Debug\net6.0\ApplicationDomain.pdb
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationDomain\obj\Debug\net6.0\ApplicationDomain.csproj.AssemblyReference.cache
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationDomain\obj\Debug\net6.0\ApplicationDomain.GeneratedMSBuildEditorConfig.editorconfig
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationDomain\obj\Debug\net6.0\ApplicationDomain.AssemblyInfoInputs.cache
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationDomain\obj\Debug\net6.0\ApplicationDomain.AssemblyInfo.cs
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationDomain\obj\Debug\net6.0\ApplicationDomain.csproj.CoreCompileInputs.cache
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationDomain\obj\Debug\net6.0\ApplicationDomain.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationDomain\obj\Debug\net6.0\refint\ApplicationDomain.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationDomain\obj\Debug\net6.0\ApplicationDomain.pdb
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\ApplicationDomain\obj\Debug\net6.0\ref\ApplicationDomain.dll

@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "K:\\Kavi stuff\\My Work\\MyClass-StudentRegisterApp\\ApplicationCore\\ApplicationCore.csproj": {}
+  },
+  "projects": {
+    "K:\\Kavi stuff\\My Work\\MyClass-StudentRegisterApp\\ApplicationCore\\ApplicationCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\Kavi stuff\\My Work\\MyClass-StudentRegisterApp\\ApplicationCore\\ApplicationCore.csproj",
+        "projectName": "ApplicationCore",
+        "projectPath": "K:\\Kavi stuff\\My Work\\MyClass-StudentRegisterApp\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\Kavi\\.nuget\\packages\\",
+        "outputPath": "K:\\Kavi stuff\\My Work\\MyClass-StudentRegisterApp\\ApplicationCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "K:\\Kavi stuff\\My Work\\MyClass-StudentRegisterApp\\ApplicationDomain\\ApplicationDomain.csproj": {
+                "projectPath": "K:\\Kavi stuff\\My Work\\MyClass-StudentRegisterApp\\ApplicationDomain\\ApplicationDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\Kavi stuff\\My Work\\MyClass-StudentRegisterApp\\ApplicationDomain\\ApplicationDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\Kavi stuff\\My Work\\MyClass-StudentRegisterApp\\ApplicationDomain\\ApplicationDomain.csproj",
+        "projectName": "ApplicationDomain",
+        "projectPath": "K:\\Kavi stuff\\My Work\\MyClass-StudentRegisterApp\\ApplicationDomain\\ApplicationDomain.csproj",
+        "packagesPath": "C:\\Users\\Kavi\\.nuget\\packages\\",
+        "outputPath": "K:\\Kavi stuff\\My Work\\MyClass-StudentRegisterApp\\ApplicationDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
