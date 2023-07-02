@@ -1,6 +1,8 @@
 using Infrastructure;
 using Infrastructure.Interfaces;
 using Infrastructure.Repositories;
+using Infrastructure.Services.Interfaces;
+using Infrastructure.Services.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +16,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IStudentService, StudentService>();
 builder.Services.AddTransient<IStudentRepository, StudentRepository>();
+builder.Services.AddTransient<ITeacherService, TeacherService>();
+builder.Services.AddTransient<ITeacherRepository, TeacherRepository>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(optionsBuilder =>
 {
