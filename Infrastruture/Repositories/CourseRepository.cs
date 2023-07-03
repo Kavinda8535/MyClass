@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ApplicationDomain.Entities;
+using Infrastructure.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,21 +8,38 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Repositories
 {
-    public class CourseRepository
+    public class CourseRepository : ICourseRepository
     {
-            //private readonly string _connectionString;
 
-            //public CourseRepository(string connectionString)
-            //{
-            //    _connectionString = connectionString;
-            //}
+        private readonly ApplicationDbContext _applicationDbContext;
 
-            private readonly ApplicationDbContext _dbContext;
+        public CourseRepository(ApplicationDbContext applicationDbContext)
+        {
+            _applicationDbContext = applicationDbContext;
+        }
 
-            public CourseRepository(ApplicationDbContext dbContext)
-            {
-                _dbContext = dbContext;
-            }
+        public IEnumerable<Course> GetAllCourses()
+        {
+            return _applicationDbContext.Courses.ToList();
+        }
+
+        public void InsertCourse(Course course)
+        {
+            _applicationDbContext.Courses.Add(course);
+            _applicationDbContext.SaveChanges();
+        }
+
+
+
+
+        #region sqlConnection
+        //private readonly string _connectionString;
+
+        //public CourseRepository(string connectionString)
+        //{
+        //    _connectionString = connectionString;
+        //}
+
 
         //public async Task<IEnumerable<Course>> GetAllCoursesAsync()
         //{
@@ -50,6 +69,7 @@ namespace Infrastructure.Repositories
         //        return courses;
         //    }
         //}
+        #endregion
     }
 
-    }
+}

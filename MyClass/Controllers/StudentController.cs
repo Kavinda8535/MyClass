@@ -1,4 +1,5 @@
-﻿using Infrastructure.Interfaces;
+﻿using ApplicationDomain.Entities;
+using Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,6 +21,13 @@ namespace MyClass.Controllers
         {
             var students = _studentService.GetAllStudents();
             return Ok(students);
+        }
+
+        [HttpPost]
+        public IActionResult AddStudent([FromBody] Student student)
+        {
+            _studentService.InsertStudent(student);
+            return Ok();
         }
     }
 }

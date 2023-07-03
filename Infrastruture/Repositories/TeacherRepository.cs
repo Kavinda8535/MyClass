@@ -20,5 +20,11 @@ namespace Infrastructure.Repositories
         {
             return _applicationDbContext.Teachers.ToList();
         }
+
+        public void InsertTeacher(Teacher teacher)
+        {
+            _applicationDbContext.Teachers.Add(teacher);
+            _applicationDbContext.SaveChanges();
+        }
     }
 }

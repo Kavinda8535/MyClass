@@ -10,5 +10,7 @@ namespace Infrastructure.Interfaces
     public interface ITeacherRepository
     {
         IEnumerable<Teacher> GetAllTeachers();
+
+        void InsertTeacher(Teacher teacher);
     }
 }

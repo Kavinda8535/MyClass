@@ -10,5 +10,6 @@ namespace Infrastructure.Interfaces
     public interface IStudentService
     {
         IEnumerable<Student> GetAllStudents();
+        void InsertStudent(Student student);
     }
 }

@@ -20,5 +20,10 @@ namespace Infrastructure.Interfaces
         {
             return _studentRepo.GetAllStudents();
         }
+
+        public void InsertStudent(Student student)
+        {
+            _studentRepo.InsertStudent(student);
+        }
     }
 }

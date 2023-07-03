@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Services.Interfaces
 {
-    public interface ITeacherService
+    public interface ICourseService
     {
-        IEnumerable<Teacher> GetAllTeachers();
-        void InsertTeacher(Teacher teacher);
+        IEnumerable<Course> GetAllCourses();
+        void InsertCourse(Course course);
     }
 }

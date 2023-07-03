@@ -1,4 +1,5 @@
-﻿using Infrastructure.Services.Interfaces;
+﻿using ApplicationDomain.Entities;
+using Infrastructure.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,6 +21,13 @@ namespace MyClass.Controllers
         {
             var teachers = _teacherService.GetAllTeachers();
             return Ok(teachers);
+        }
+
+        [HttpPost]
+        public IActionResult AddTeacher([FromBody] Teacher teacher)
+        {
+            _teacherService.InsertTeacher(teacher);
+            return Ok();
         }
     }
 }

@@ -21,5 +21,10 @@ namespace Infrastructure.Services.Services
         {
            return _teacherRepository.GetAllTeachers().ToList();
         }
+
+        public void InsertTeacher(Teacher teacher)
+        {
+            _teacherRepository.InsertTeacher(teacher);
+        }
     }
 }

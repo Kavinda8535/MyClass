@@ -17,9 +17,18 @@ namespace Infrastructure.Repositories
             _applicationDbContext = applicationDbContext;
         }
 
+        public void InsertStudent(Student student)
+        {
+            _applicationDbContext.Students.Add(student);
+            _applicationDbContext.SaveChanges();
+
+        }
+
         IEnumerable<Student> IStudentRepository.GetAllStudents()
         {
             return _applicationDbContext.Students.ToList();
         }
+
+
     }
 }
