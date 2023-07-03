@@ -18,6 +18,7 @@ builder.Services.AddTransient<IStudentService, StudentService>();
 builder.Services.AddTransient<IStudentRepository, StudentRepository>();
 builder.Services.AddTransient<ITeacherService, TeacherService>();
 builder.Services.AddTransient<ITeacherRepository, TeacherRepository>();
+builder.Services.AddTransient<IAssignmentService, AssignmentService>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(optionsBuilder =>
 {

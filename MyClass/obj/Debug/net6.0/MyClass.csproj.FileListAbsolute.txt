@@ -78,3 +78,7 @@ K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\obj\Debug\net6.0\refint
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\obj\Debug\net6.0\MyClass.pdb
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\obj\Debug\net6.0\MyClass.genruntimeconfig.cache
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\obj\Debug\net6.0\ref\MyClass.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\System.Web.Http.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Newtonsoft.Json.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
