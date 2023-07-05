@@ -11,5 +11,7 @@ namespace ApplicationDomain.Entities
             public string? CourseName { get; set; }
             public string? CourseDescription { get; set; }
             public int TeacherId { get; set; }
-    }
+            public ICollection<Student>? Students { get; set; }
+            public Teacher? Teacher { get; set; }
+    }   
 }

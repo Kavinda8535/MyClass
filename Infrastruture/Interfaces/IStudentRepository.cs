@@ -11,5 +11,6 @@ namespace Infrastructure.Interfaces
     {
         IEnumerable<Student> GetAllStudents();
         void InsertStudent(Student student);
+        Student GetById(int studentId);
     }
 }

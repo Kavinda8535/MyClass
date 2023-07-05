@@ -3,6 +3,7 @@ using Infrastructure.Interfaces;
 using Infrastructure.Repositories;
 using Infrastructure.Services.Interfaces;
 using Infrastructure.Services.Services;
+using Infrastructure.Services.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,13 +13,25 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+/*builder.Services.AddSwaggerGen()*/;
 
+// This resolver helps resolve conflicts when multiple actions have the same method and path combination. 
+builder.Services.AddSwaggerGen(options =>
+{
+    options.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
+});
+
+builder.Services.AddTransient<ICourseRegistrationFacadeService, CourseRegistrationFacadeService>();
 builder.Services.AddTransient<IStudentService, StudentService>();
 builder.Services.AddTransient<IStudentRepository, StudentRepository>();
 builder.Services.AddTransient<ITeacherService, TeacherService>();
 builder.Services.AddTransient<ITeacherRepository, TeacherRepository>();
-builder.Services.AddTransient<IAssignmentService, AssignmentService>();
+builder.Services.AddTransient<IAssignmentService, AssignmentService>(); 
+builder.Services.AddTransient<ICourseService, CourseService>();
+builder.Services.AddTransient<ICourseRepository, CourseRepository>();
+
+
+//builder.Services.AddScoped<ApplicationDbContext>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(optionsBuilder =>
 {

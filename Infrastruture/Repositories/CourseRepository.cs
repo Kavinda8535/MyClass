@@ -1,5 +1,6 @@
 ﻿using ApplicationDomain.Entities;
 using Infrastructure.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,19 @@ namespace Infrastructure.Repositories
         public void InsertCourse(Course course)
         {
             _applicationDbContext.Courses.Add(course);
+            _applicationDbContext.SaveChanges();
+        }
+
+        public Course GetById(int courseId)
+        {
+            return _applicationDbContext.Courses
+            .Include(c => c.Students)
+            .FirstOrDefault(c => c.Id == courseId);
+        }
+
+        public void Update(Course course)
+        {
+            _applicationDbContext.Courses.Update(course);
             _applicationDbContext.SaveChanges();
         }
 

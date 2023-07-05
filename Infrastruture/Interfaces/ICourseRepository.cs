@@ -11,5 +11,7 @@ namespace Infrastructure.Interfaces
     {
         IEnumerable<Course> GetAllCourses();
         void InsertCourse(Course course);
+        Course GetById(int courseId);
+        void Update(Course course);
     }
 }

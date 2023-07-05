@@ -1,5 +1,6 @@
 ﻿using ApplicationDomain.Entities;
 using Infrastructure.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +26,13 @@ namespace Infrastructure.Repositories
         {
             _applicationDbContext.Teachers.Add(teacher);
             _applicationDbContext.SaveChanges();
+        }
+
+        public Teacher GetById(int teacherId)
+        {
+            return _applicationDbContext.Teachers
+           .Include(c => c.Id)
+           .FirstOrDefault(c => c.Id == teacherId);
         }
     }
 }

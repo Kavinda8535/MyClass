@@ -12,5 +12,6 @@ namespace Infrastructure.Interfaces
         IEnumerable<Teacher> GetAllTeachers();
 
         void InsertTeacher(Teacher teacher);
+        Teacher GetById(int teacherId);
     }
 }

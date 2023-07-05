@@ -7,6 +7,8 @@ K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\MyClas
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\MyClass.pdb
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Azure.Core.dll
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Azure.Identity.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\System.Web.Http.dll
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -33,6 +35,8 @@ K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Micros
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Microsoft.OpenApi.dll
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Newtonsoft.Json.dll
+K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -78,7 +82,3 @@ K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\obj\Debug\net6.0\refint
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\obj\Debug\net6.0\MyClass.pdb
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\obj\Debug\net6.0\MyClass.genruntimeconfig.cache
 K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\obj\Debug\net6.0\ref\MyClass.dll
-K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\System.Net.Http.Formatting.dll
-K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\System.Web.Http.dll
-K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Newtonsoft.Json.dll
-K:\Kavi stuff\My Work\MyClass-StudentRegisterApp\MyClass\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
